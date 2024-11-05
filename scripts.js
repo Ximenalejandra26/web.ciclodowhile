@@ -8,4 +8,15 @@ do {
         total += numero; 
     }
 
+} while (numero !== 0000); 
+
+// Imprimir el valor total acumulado
+console.log("El valor acumulado es: " + total);
+
+if (total > 0) {
+    console.log("El total acumulado es mayor a cero.");
+} else if (total < 0) {
+    console.log("El total acumulado es menor a cero.");
+} else {
+    console.log("El total acumulado es cero.");
 }
